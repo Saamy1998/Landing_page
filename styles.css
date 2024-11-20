@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  header .auth button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  header .auth .login {
+    background-color: #fff;
+    color: #f56300;
+    border: 1px solid #f56300;
+  }
+  
+  header .auth .signup {
+    background-color: #f56300;
+    color: #fff;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .hero .text {
+    max-width: 50%;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .hero h1 span {
+    color: #f56300;
+  }
+  
+  .hero p {
+    margin: 20px 0;
+    color: #666;
+  }
+  
+  .hero .discover {
+    padding: 15px 30px;
+    background-color: #f56300;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero .image img {
+    max-width: 75%;
+    height: auto;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+  }
+  
+  .search input, .search button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search button {
+    background-color: #f56300;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
